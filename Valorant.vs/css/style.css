@@ -1,0 +1,50 @@
+/* RESET DE CONFIGURAÇÕES DO NAVEGADOR */
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image: url("../image/valorant3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align:center;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 100px 0;
+    font-size:100px;
+}
+
+h2 {
+    color: red;
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    margin: auto;
+}
+
+p {
+    text-align:justify;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
+    margin:auto;
+}
+
+img {
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+}
+
+video {
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+}
