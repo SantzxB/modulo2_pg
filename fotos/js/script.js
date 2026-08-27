@@ -1,0 +1,24 @@
+//DOM
+
+const alvo = document.querySelector("#alvo")
+const btyamal = document.querySelector("#bt1")
+const btcr7 = document.querySelector("#bt2")
+const btmessi = document.querySelector("#bt3")
+
+//eventos
+
+btyamal.addEventListener('click', yamal)
+btcr7.addEventListener('click', cr7)
+btmessi.addEventListener('click', messi)
+
+//ação
+
+function yamal(){
+    alvo.src = 'images/yamal.jpg'
+}
+function cr7(){
+    alvo.src = 'images/cristiano.jpg'
+}
+function messi(){
+    alvo.src = 'images/messi.jpg'
+}
