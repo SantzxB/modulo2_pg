@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.central button{
+    width: 100px;
+    background-color: gray;
+    border: none;
+    font-size: 20px;
+    cursor:pointer;
+}
+button:hover{
+    transition: 0.2s;
+    transform: scale(0.9);
+    background-color: rgb(255, 255, 255);
+
+    color: black;
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 30px black;
+
+}
