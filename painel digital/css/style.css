@@ -1,0 +1,106 @@
+/* CONFIGURAÇÃO BASE E CENTRALIZAÇÃO DA TELA */
+body {
+    height: 100vh;
+    background: url('../img/1363137.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* CAIXA CONTAINER DO PAINEL PRINCIPAL */
+.painel {
+    background-color: rgba(10, 20, 30, 0.85);
+    border: 3px solid #00ffaa;
+    box-shadow: 0 0 20px rgba(0, 255, 170, 0.4);
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* ESTILIZAÇÃO DO TÍTULO PRINCIPAL */
+.painel h2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+/* RELÓGIO COM TEXTO GRANDE E BRILHO NEON */
+.relogio-principal {
+    font-size: 50px;
+    font-weight: bold;
+    color: #00ffaa;
+    text-shadow: 0 0 10px rgba(0, 255, 170, 0.5);
+    font-family: monospace;
+}
+
+/* CONTAINER DAS TRÊS CAIXINHAS DE DATA LADO A LADO */
+.caixas-data {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+/* BLOCOS INDIVIDUAIS (DIA, MÊS, ANO) */
+.bloco {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(0, 255, 170, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 18px;
+    border-radius: 10px;
+    min-width: 85px;
+}
+
+/* TEXTOS INTERNOS DOS BLOCOS */
+.legenda {
+    font-size: 11px;
+    font-weight: bold;
+    color: #8899a6;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.bloco span:last-child {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* TEXTO DA DATA CORRIDA CENTRAL */
+.data-corrida {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+}
+
+/* TEXTO DE SAUDAÇÃO ESTILO CHAMA/SOL */
+.periodo {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.3);
+}
+
+/* RODAPÉ DO PAINEL */
+.status-painel {
+    font-size: 11px;
+    color: #00ff66;
+    opacity: 0.9;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}

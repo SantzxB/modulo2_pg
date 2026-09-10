@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Painel Digital - Demon Slayer</title>
+</head>
+<body>
+
+    <div class="painel">
+        <!-- Título Principal -->
+        <h2>PAINEL DIGITAL</h2>
+
+        <!-- Relógio Principal -->
+        <div class="relogio-principal">
+            <span id="hora">00</span>
+            <span>:</span>
+            <span id="minuto">00</span>
+            <span>:</span>
+            <span id="segundo">00</span>
+        </div>
+
+        <!-- Exibição da Data Corrida -->
+        <div class="data-corrida">
+            <span id="data-completa">00/00/0000</span>
+        </div>
+
+        <!-- Blocos Individuais de Data -->
+        <div class="caixas-data">
+            <div class="bloco">
+                <span class="legenda">DIA</span>
+                <span id="dia">00</span>
+            </div>
+
+            <div class="bloco">
+                <span class="legenda">MÊS</span>
+                <span id="mes">00</span>
+            </div>
+
+            <div class="bloco">
+                <span class="legenda">ANO</span>
+                <span id="ano">0000</span>
+            </div>
+        </div>
+
+        <!-- Mensagem de Saudação Dinâmica -->
+        <div class="periodo">
+            <span id="saudacao">CARREGANDO...</span>
+        </div>
+
+        <!-- Rodapé de Status do Sistema -->
+        <div class="status-painel">
+            <span>🟢 PAINEL ATUALIZADO AUTOMATICAMENTE</span>
+        </div>
+    </div>
+
+    <!-- Vinculação do arquivo JavaScript externo -->
+    <script src="js/script.js"></script>
+</body>
+</html>
