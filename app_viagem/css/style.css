@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    background: url(../img/carro2.jpg);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    display: flex;
+}
+.central{
+    background: rgba(87, 82, 82, 0.349);
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    
+    box-shadow: 
+    
+        0 0 5px rgb(216, 219, 16),
+        0 0 10px rgb(53, 134, 16),
+        0 0 20px rgb(55, 90, 25),
+        0 0 40px rgb(91, 194, 59);
+;
+}
+.central input{
+    width: 80%;
+    height: 20px;
+    border: 2px solid black;
+
+}
+.central h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.central button{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    width: fit-content;
+    cursor: pointer;
+    border: rgb(0, 0, 0);
+    border-radius: 5px;
+    &:hover{
+        background-color: white;
+        color: rgb(0, 0, 0);
+        box-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(0, 0, 0),
+        0 0 20px rgb(111, 117, 119),
+        0 0 30px  rgb(0, 0,0);
+        transition: 0.7s;
+        transform: scale(1.1);
+    }
+}
+.central span{
+font-size: 20px;
+color: rgb(254, 254, 255);
+}
