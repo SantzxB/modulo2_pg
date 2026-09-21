@@ -1,0 +1,61 @@
+body{
+    background: url(/img/fotos.jpg);
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.central{
+    height: 500px;
+    background: rgba(255, 255, 255, 0.247);
+    width: 60%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+}
+.central input{
+
+    width: 70%;
+    height: 20px;
+    border: 2px solid rgb(67, 67, 68)
+}
+.central h1{
+    color: rgb(201, 187, 66);
+    font-size: 30px;
+
+}
+.central h3{
+    color: rgb(226, 205, 12);
+    font-size: 20px;
+}
+.central button{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(201, 187, 66);
+    color: rgba(0, 0, 0, 0.418);
+    width: fit-content;
+    cursor: pointer;
+    border: rgb(201, 187, 66);
+    border-radius: 5px;
+
+    &:hover{
+        background-color: white;
+        color: rgb(252, 227, 0);
+        box-shadow:
+        0 0 5px white,
+        0 0 10px rgb(230, 209, 28),
+        0 0 20px rgb(201, 187, 66);
+        transition: 0.7s;
+        transform: scale(0.9);
+}}
+.central span{
+    font-size: 20px;
+    color: rgb(235, 227, 227);
+}
